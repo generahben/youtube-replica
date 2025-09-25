@@ -9,9 +9,9 @@
   </head>
   <body class="bg-zinc-800 text-white p-3">
     <header class="flex justify-between items-center">
-
+        
         <aside class="flex items-center">
-            <i class="las la-bars text-lg"></i>
+            <i id="nav-icon" class="las la-bars text-lg cursor-pointer"></i>
             <img src="./assets/img/youtube-logo.png" class="ml-2 w-26" alt="Youtube Logo">
         </aside>
 
@@ -54,6 +54,7 @@
                 </li>
             </ul>
         </nav>
+        
         <section class="w-full lg:w-10/12">
             <div class="overflow-hidden">
                 <ul class="flex space-x-4">
@@ -100,6 +101,10 @@
                 </ul>
             </div>
             
+            <dialog id="loginForm" class="w-10/12 lg:w-6/12 mx-auto mt-12 p-4">
+                Simple Login Form will go here <br>
+                <button id="closeLoginForm" class="cursor-pointer text-red-600 font-semibold">Close</button>
+            </dialog>
 
             <section class="mt-5 flex flex-wrap">
                 <article class="w-full md:w-6/12 lg:w-4/12 p-2">
